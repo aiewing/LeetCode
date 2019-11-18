@@ -75,6 +75,7 @@ public:
         }
         ListNode *tempA = headA;
         ListNode *tempB = headB;
+        // 计算链表长度
         int countA = 0, countB = 0;
         while (tempA) {
             countA++;
@@ -84,6 +85,7 @@ public:
             countB++;
             tempB = tempB->next;
         }
+        // 控制两个链表一样长
         tempA = headA;
         tempB = headB;
         while (countA != countB) {
@@ -96,17 +98,15 @@ public:
                 countB--;
             }
         }
-        // 开始双指针
+        // 开始双指针遍历
         while (tempA != NULL && tempB != NULL) {
             if (tempA == tempB) {
-                std::cout << "Hello, World!\n";
                 return tempA;
             } else {
                 tempA = tempA->next;
                 tempB = tempB->next;
             }
         }
-        std::cout << "Hello, World!\n";
         return NULL;
     }
 };
