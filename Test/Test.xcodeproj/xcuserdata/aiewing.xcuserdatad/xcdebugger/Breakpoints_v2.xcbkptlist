@@ -7,15 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "458A15F8-8CF9-4A8E-8D63-7C31974636DE"
+            uuid = "9DFFF9A0-7937-47B5-AA19-D47D8B006E06"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Test/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81">
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "kConcatenationMaxSum(arr, k)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
